@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F771311BB0CB86005D4B11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F771301BB0CB86005D4B11 /* main.m */; };
+		53F7714F1BB0CBAF005D4B11 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F771381BB0CBAF005D4B11 /* Car.m */; settings = {ASSET_TAGS = (); }; };
+		53F771501BB0CBAF005D4B11 /* RcCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F7713B1BB0CBAF005D4B11 /* RcCar.m */; settings = {ASSET_TAGS = (); }; };
+		53F771511BB0CBAF005D4B11 /* ModelCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F7713D1BB0CBAF005D4B11 /* ModelCar.m */; settings = {ASSET_TAGS = (); }; };
+		53F771521BB0CBAF005D4B11 /* SportsCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F7713F1BB0CBAF005D4B11 /* SportsCar.m */; settings = {ASSET_TAGS = (); }; };
+		53F771531BB0CBAF005D4B11 /* KlaxonWithSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F771451BB0CBAF005D4B11 /* KlaxonWithSound.m */; settings = {ASSET_TAGS = (); }; };
+		53F771541BB0CBAF005D4B11 /* MuteKlaxon.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F771471BB0CBAF005D4B11 /* MuteKlaxon.m */; settings = {ASSET_TAGS = (); }; };
+		53F771551BB0CBAF005D4B11 /* MoveWithWheels.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F771491BB0CBAF005D4B11 /* MoveWithWheels.m */; settings = {ASSET_TAGS = (); }; };
+		53F771561BB0CBAF005D4B11 /* MoveNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F7714B1BB0CBAF005D4B11 /* MoveNoWay.m */; settings = {ASSET_TAGS = (); }; };
+		53F771571BB0CBAF005D4B11 /* MoveWithElectricity.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F7714D1BB0CBAF005D4B11 /* MoveWithElectricity.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53F7712B1BB0CB86005D4B11 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53F7712D1BB0CB86005D4B11 /* Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strategy; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F771301BB0CB86005D4B11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53F771371BB0CBAF005D4B11 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		53F771381BB0CBAF005D4B11 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		53F7713A1BB0CBAF005D4B11 /* RcCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RcCar.h; sourceTree = "<group>"; };
+		53F7713B1BB0CBAF005D4B11 /* RcCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RcCar.m; sourceTree = "<group>"; };
+		53F7713C1BB0CBAF005D4B11 /* ModelCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCar.h; sourceTree = "<group>"; };
+		53F7713D1BB0CBAF005D4B11 /* ModelCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCar.m; sourceTree = "<group>"; };
+		53F7713E1BB0CBAF005D4B11 /* SportsCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsCar.h; sourceTree = "<group>"; };
+		53F7713F1BB0CBAF005D4B11 /* SportsCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsCar.m; sourceTree = "<group>"; };
+		53F771411BB0CBAF005D4B11 /* KlaxonBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KlaxonBehavior.h; sourceTree = "<group>"; };
+		53F771421BB0CBAF005D4B11 /* MoveBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveBehavior.h; sourceTree = "<group>"; };
+		53F771441BB0CBAF005D4B11 /* KlaxonWithSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KlaxonWithSound.h; sourceTree = "<group>"; };
+		53F771451BB0CBAF005D4B11 /* KlaxonWithSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KlaxonWithSound.m; sourceTree = "<group>"; };
+		53F771461BB0CBAF005D4B11 /* MuteKlaxon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuteKlaxon.h; sourceTree = "<group>"; };
+		53F771471BB0CBAF005D4B11 /* MuteKlaxon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteKlaxon.m; sourceTree = "<group>"; };
+		53F771481BB0CBAF005D4B11 /* MoveWithWheels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveWithWheels.h; sourceTree = "<group>"; };
+		53F771491BB0CBAF005D4B11 /* MoveWithWheels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveWithWheels.m; sourceTree = "<group>"; };
+		53F7714A1BB0CBAF005D4B11 /* MoveNoWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveNoWay.h; sourceTree = "<group>"; };
+		53F7714B1BB0CBAF005D4B11 /* MoveNoWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveNoWay.m; sourceTree = "<group>"; };
+		53F7714C1BB0CBAF005D4B11 /* MoveWithElectricity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveWithElectricity.h; sourceTree = "<group>"; };
+		53F7714D1BB0CBAF005D4B11 /* MoveWithElectricity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveWithElectricity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F7712A1BB0CB86005D4B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F771241BB0CB86005D4B11 = {
+			isa = PBXGroup;
+			children = (
+				53F7712F1BB0CB86005D4B11 /* Strategy */,
+				53F7712E1BB0CB86005D4B11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F7712E1BB0CB86005D4B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F7712D1BB0CB86005D4B11 /* Strategy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F7712F1BB0CB86005D4B11 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				53F771301BB0CB86005D4B11 /* main.m */,
+				53F771391BB0CBAF005D4B11 /* BaseClass */,
+				53F771401BB0CBAF005D4B11 /* SubClass */,
+				53F771431BB0CBAF005D4B11 /* Interfaces */,
+				53F7714E1BB0CBAF005D4B11 /* Implements */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		53F771391BB0CBAF005D4B11 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				53F771371BB0CBAF005D4B11 /* Car.h */,
+				53F771381BB0CBAF005D4B11 /* Car.m */,
+			);
+			name = BaseClass;
+			path = ../../StrategyPatternExample/StrategyPatternExample;
+			sourceTree = "<group>";
+		};
+		53F771401BB0CBAF005D4B11 /* SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				53F7713A1BB0CBAF005D4B11 /* RcCar.h */,
+				53F7713B1BB0CBAF005D4B11 /* RcCar.m */,
+				53F7713C1BB0CBAF005D4B11 /* ModelCar.h */,
+				53F7713D1BB0CBAF005D4B11 /* ModelCar.m */,
+				53F7713E1BB0CBAF005D4B11 /* SportsCar.h */,
+				53F7713F1BB0CBAF005D4B11 /* SportsCar.m */,
+			);
+			name = SubClass;
+			path = ../../StrategyPatternExample/StrategyPatternExample;
+			sourceTree = "<group>";
+		};
+		53F771431BB0CBAF005D4B11 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				53F771411BB0CBAF005D4B11 /* KlaxonBehavior.h */,
+				53F771421BB0CBAF005D4B11 /* MoveBehavior.h */,
+			);
+			name = Interfaces;
+			path = ../../StrategyPatternExample/StrategyPatternExample;
+			sourceTree = "<group>";
+		};
+		53F7714E1BB0CBAF005D4B11 /* Implements */ = {
+			isa = PBXGroup;
+			children = (
+				53F771441BB0CBAF005D4B11 /* KlaxonWithSound.h */,
+				53F771451BB0CBAF005D4B11 /* KlaxonWithSound.m */,
+				53F771461BB0CBAF005D4B11 /* MuteKlaxon.h */,
+				53F771471BB0CBAF005D4B11 /* MuteKlaxon.m */,
+				53F771481BB0CBAF005D4B11 /* MoveWithWheels.h */,
+				53F771491BB0CBAF005D4B11 /* MoveWithWheels.m */,
+				53F7714A1BB0CBAF005D4B11 /* MoveNoWay.h */,
+				53F7714B1BB0CBAF005D4B11 /* MoveNoWay.m */,
+				53F7714C1BB0CBAF005D4B11 /* MoveWithElectricity.h */,
+				53F7714D1BB0CBAF005D4B11 /* MoveWithElectricity.m */,
+			);
+			name = Implements;
+			path = ../../StrategyPatternExample/StrategyPatternExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F7712C1BB0CB86005D4B11 /* Strategy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F771341BB0CB86005D4B11 /* Build configuration list for PBXNativeTarget "Strategy" */;
+			buildPhases = (
+				53F771291BB0CB86005D4B11 /* Sources */,
+				53F7712A1BB0CB86005D4B11 /* Frameworks */,
+				53F7712B1BB0CB86005D4B11 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strategy;
+			productName = Strategy;
+			productReference = 53F7712D1BB0CB86005D4B11 /* Strategy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F771251BB0CB86005D4B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jusung Kye";
+				TargetAttributes = {
+					53F7712C1BB0CB86005D4B11 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 53F771281BB0CB86005D4B11 /* Build configuration list for PBXProject "Strategy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53F771241BB0CB86005D4B11;
+			productRefGroup = 53F7712E1BB0CB86005D4B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F7712C1BB0CB86005D4B11 /* Strategy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F771291BB0CB86005D4B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F771571BB0CBAF005D4B11 /* MoveWithElectricity.m in Sources */,
+				53F771531BB0CBAF005D4B11 /* KlaxonWithSound.m in Sources */,
+				53F771511BB0CBAF005D4B11 /* ModelCar.m in Sources */,
+				53F771501BB0CBAF005D4B11 /* RcCar.m in Sources */,
+				53F7714F1BB0CBAF005D4B11 /* Car.m in Sources */,
+				53F771561BB0CBAF005D4B11 /* MoveNoWay.m in Sources */,
+				53F771541BB0CBAF005D4B11 /* MuteKlaxon.m in Sources */,
+				53F771311BB0CB86005D4B11 /* main.m in Sources */,
+				53F771551BB0CBAF005D4B11 /* MoveWithWheels.m in Sources */,
+				53F771521BB0CBAF005D4B11 /* SportsCar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53F771321BB0CB86005D4B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53F771331BB0CB86005D4B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53F771351BB0CB86005D4B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53F771361BB0CB86005D4B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F771281BB0CB86005D4B11 /* Build configuration list for PBXProject "Strategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F771321BB0CB86005D4B11 /* Debug */,
+				53F771331BB0CB86005D4B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F771341BB0CB86005D4B11 /* Build configuration list for PBXNativeTarget "Strategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F771351BB0CB86005D4B11 /* Debug */,
+				53F771361BB0CB86005D4B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F771251BB0CB86005D4B11 /* Project object */;
+}
