@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B09E081C0E96E100B058A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E071C0E96E100B058A5 /* main.m */; };
+		53B09E3B1C0EA9F600B058A5 /* DDuckBokE.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E191C0E970200B058A5 /* DDuckBokE.m */; };
+		53B09E3C1C0EA9F600B058A5 /* Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E101C0E970200B058A5 /* Basic.m */; };
+		53B09E3D1C0EA9F600B058A5 /* Carbonara.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E121C0E970200B058A5 /* Carbonara.m */; };
+		53B09E3E1C0EA9F600B058A5 /* Curry.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E141C0E970200B058A5 /* Curry.m */; };
+		53B09E3F1C0EA9F600B058A5 /* JJaJang.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E161C0E970200B058A5 /* JJaJang.m */; };
+		53B09E401C0EA9F600B058A5 /* SariDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E251C0E970200B058A5 /* SariDecorator.m */; };
+		53B09E411C0EA9F600B058A5 /* Mandoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E341C0E97D700B058A5 /* Mandoo.m */; };
+		53B09E421C0EA9F600B058A5 /* Odeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E361C0E97D700B058A5 /* Odeng.m */; };
+		53B09E431C0EA9F600B058A5 /* Ramyun.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E381C0E97D700B058A5 /* Ramyun.m */; };
+		53B09E441C0EA9F600B058A5 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B09E3A1C0E97D700B058A5 /* Vegetable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53B09E021C0E96E100B058A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53B09E041C0E96E100B058A5 /* Decorator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Decorator; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B09E071C0E96E100B058A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53B09E0F1C0E970200B058A5 /* Basic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Basic.h; sourceTree = "<group>"; };
+		53B09E101C0E970200B058A5 /* Basic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Basic.m; sourceTree = "<group>"; };
+		53B09E111C0E970200B058A5 /* Carbonara.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Carbonara.h; sourceTree = "<group>"; };
+		53B09E121C0E970200B058A5 /* Carbonara.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Carbonara.m; sourceTree = "<group>"; };
+		53B09E131C0E970200B058A5 /* Curry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Curry.h; sourceTree = "<group>"; };
+		53B09E141C0E970200B058A5 /* Curry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Curry.m; sourceTree = "<group>"; };
+		53B09E151C0E970200B058A5 /* JJaJang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJaJang.h; sourceTree = "<group>"; };
+		53B09E161C0E970200B058A5 /* JJaJang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJaJang.m; sourceTree = "<group>"; };
+		53B09E181C0E970200B058A5 /* DDuckBokE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDuckBokE.h; sourceTree = "<group>"; };
+		53B09E191C0E970200B058A5 /* DDuckBokE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDuckBokE.m; sourceTree = "<group>"; };
+		53B09E241C0E970200B058A5 /* SariDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SariDecorator.h; sourceTree = "<group>"; };
+		53B09E251C0E970200B058A5 /* SariDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SariDecorator.m; sourceTree = "<group>"; };
+		53B09E331C0E97D700B058A5 /* Mandoo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mandoo.h; sourceTree = "<group>"; };
+		53B09E341C0E97D700B058A5 /* Mandoo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mandoo.m; sourceTree = "<group>"; };
+		53B09E351C0E97D700B058A5 /* Odeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Odeng.h; sourceTree = "<group>"; };
+		53B09E361C0E97D700B058A5 /* Odeng.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Odeng.m; sourceTree = "<group>"; };
+		53B09E371C0E97D700B058A5 /* Ramyun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ramyun.h; sourceTree = "<group>"; };
+		53B09E381C0E97D700B058A5 /* Ramyun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ramyun.m; sourceTree = "<group>"; };
+		53B09E391C0E97D700B058A5 /* Vegetable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		53B09E3A1C0E97D700B058A5 /* Vegetable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53B09E011C0E96E100B058A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53B09DFB1C0E96E100B058A5 = {
+			isa = PBXGroup;
+			children = (
+				53B09E061C0E96E100B058A5 /* Decorator */,
+				53B09E051C0E96E100B058A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53B09E051C0E96E100B058A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B09E041C0E96E100B058A5 /* Decorator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B09E061C0E96E100B058A5 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				53B09E171C0E970200B058A5 /* BaseClass */,
+				53B09E0E1C0E970200B058A5 /* SubClass */,
+				53B09E1A1C0E970200B058A5 /* Decorator */,
+				53B09E321C0E97D700B058A5 /* Decorator SubClass */,
+				53B09E071C0E96E100B058A5 /* main.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		53B09E0E1C0E970200B058A5 /* SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				53B09E0F1C0E970200B058A5 /* Basic.h */,
+				53B09E101C0E970200B058A5 /* Basic.m */,
+				53B09E111C0E970200B058A5 /* Carbonara.h */,
+				53B09E121C0E970200B058A5 /* Carbonara.m */,
+				53B09E131C0E970200B058A5 /* Curry.h */,
+				53B09E141C0E970200B058A5 /* Curry.m */,
+				53B09E151C0E970200B058A5 /* JJaJang.h */,
+				53B09E161C0E970200B058A5 /* JJaJang.m */,
+			);
+			path = SubClass;
+			sourceTree = "<group>";
+		};
+		53B09E171C0E970200B058A5 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				53B09E181C0E970200B058A5 /* DDuckBokE.h */,
+				53B09E191C0E970200B058A5 /* DDuckBokE.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		53B09E1A1C0E970200B058A5 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				53B09E241C0E970200B058A5 /* SariDecorator.h */,
+				53B09E251C0E970200B058A5 /* SariDecorator.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		53B09E321C0E97D700B058A5 /* Decorator SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				53B09E331C0E97D700B058A5 /* Mandoo.h */,
+				53B09E341C0E97D700B058A5 /* Mandoo.m */,
+				53B09E351C0E97D700B058A5 /* Odeng.h */,
+				53B09E361C0E97D700B058A5 /* Odeng.m */,
+				53B09E371C0E97D700B058A5 /* Ramyun.h */,
+				53B09E381C0E97D700B058A5 /* Ramyun.m */,
+				53B09E391C0E97D700B058A5 /* Vegetable.h */,
+				53B09E3A1C0E97D700B058A5 /* Vegetable.m */,
+			);
+			path = "Decorator SubClass";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53B09E031C0E96E100B058A5 /* Decorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B09E0B1C0E96E100B058A5 /* Build configuration list for PBXNativeTarget "Decorator" */;
+			buildPhases = (
+				53B09E001C0E96E100B058A5 /* Sources */,
+				53B09E011C0E96E100B058A5 /* Frameworks */,
+				53B09E021C0E96E100B058A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Decorator;
+			productName = Decorator;
+			productReference = 53B09E041C0E96E100B058A5 /* Decorator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53B09DFC1C0E96E100B058A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jusung Kye";
+				TargetAttributes = {
+					53B09E031C0E96E100B058A5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 53B09DFF1C0E96E100B058A5 /* Build configuration list for PBXProject "Decorator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53B09DFB1C0E96E100B058A5;
+			productRefGroup = 53B09E051C0E96E100B058A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B09E031C0E96E100B058A5 /* Decorator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53B09E001C0E96E100B058A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B09E3B1C0EA9F600B058A5 /* DDuckBokE.m in Sources */,
+				53B09E3C1C0EA9F600B058A5 /* Basic.m in Sources */,
+				53B09E3D1C0EA9F600B058A5 /* Carbonara.m in Sources */,
+				53B09E3E1C0EA9F600B058A5 /* Curry.m in Sources */,
+				53B09E3F1C0EA9F600B058A5 /* JJaJang.m in Sources */,
+				53B09E401C0EA9F600B058A5 /* SariDecorator.m in Sources */,
+				53B09E411C0EA9F600B058A5 /* Mandoo.m in Sources */,
+				53B09E421C0EA9F600B058A5 /* Odeng.m in Sources */,
+				53B09E431C0EA9F600B058A5 /* Ramyun.m in Sources */,
+				53B09E441C0EA9F600B058A5 /* Vegetable.m in Sources */,
+				53B09E081C0E96E100B058A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53B09E091C0E96E100B058A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53B09E0A1C0E96E100B058A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53B09E0C1C0E96E100B058A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53B09E0D1C0E96E100B058A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B09DFF1C0E96E100B058A5 /* Build configuration list for PBXProject "Decorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B09E091C0E96E100B058A5 /* Debug */,
+				53B09E0A1C0E96E100B058A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B09E0B1C0E96E100B058A5 /* Build configuration list for PBXNativeTarget "Decorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B09E0C1C0E96E100B058A5 /* Debug */,
+				53B09E0D1C0E96E100B058A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53B09DFC1C0E96E100B058A5 /* Project object */;
+}
